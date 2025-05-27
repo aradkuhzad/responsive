@@ -1,6 +1,8 @@
 header {
     position: fixed;
-    width: 1536px;
+    align-items: center;
+    width: 100%;
+    max-width: none;
     height: 110px;
     padding: 32px 0px;
     top: 0;
@@ -15,11 +17,53 @@ header {
      justify-content: space-between;
      align-items: center;
      width: 1140px;
-     height: 46px;
+     height: 43.96px;
      margin: 0px auto;
      padding: 0px 23.04px ;
      background-color: red;
     }
 
+    
 
+@media (min-width: 576px) {  /* mobile */
+    .background {
+         width: 540px;
+         background-color: blue;
+         padding: 0px 8.628px;
+    }
+} 
+
+
+@media (min-width: 768px) {  /* tablet */
+    .background {
+       width: 720px;
+       height: 44.61px;
+       background-color: yellow;
+    }
+} 
+
+@media (min-width: 992px) {  /* small desktop */
+    .background {
+        width: 960px;
+        height: 45.23px;
+        background-color: greenyellow;
+    }
+}
+
+@media (min-width: 1200px) {  /* desktop */
+    .background {
+        width: 1140px;
+        height: 46px;
+        background-color: teal;
+    }
+}
+
+@media (min-width: 1680px) {  /* wide desktop */
+    .background {
+        width: 1600px;
+        background-color:purple;
+    }
+}
+
+   
 
